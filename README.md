@@ -1,34 +1,23 @@
-Indic Finance Search 📊
-A specialized search tool designed for financial data analysis, supporting Indic languages. This project focuses on bridging the gap in financial information accessibility for Indian regional languages.
+# Indic Finance Search 🇮🇳 💰
 
-🚀 Features
-Multilingual Support: Process and search financial queries in English and Hindi using datasets like BhashaBench.
+An advanced search and analysis tool developed to process financial data in multiple Indic languages. This project leverages Python and data analysis techniques to make financial benchmarks more accessible across language barriers.
 
-Data-Driven Insights: Built to handle CSV-based financial records for efficient retrieval.
+## 🎓 About the Project
+This project was developed as part of my studies in **Computer Science & Engineering** at **SSASIT**. It focuses on the intersection of **Data Analysis** and **Natural Language Processing (NLP)**, specifically targeting financial datasets like **BhashaBench**.
 
-Python-Powered: Utilizes efficient data processing libraries for quick search results.
+## ✨ Key Features
+* **Multilingual Processing:** Capability to search and analyze data in both English and Hindi using specialized CSV datasets.
+* **Data Analysis Focus:** Built with a foundation in data analysis to provide structured insights from financial records.
+* **Streamlit Integration:** Features a web-based interface for easy interaction and data visualization.
 
-📁 Project Structure
-app.py: The main application logic (formerly 2.py).
+## 📂 Repository Structure
+* **`app.py`**: The core application script handling the search and UI logic.
+* **`BhashaBench_English.csv`**: Financial benchmark data in English.
+* **`BhashaBench_Hindi.csv`**: Financial benchmark data in Hindi.
+* **`requirements.txt`**: Essential Python libraries (like `streamlit`, `pandas`, `huggingface_hub`).
+* **`LICENSE`**: Project licensing information.
 
-BhashaBench_English.csv: Benchmark dataset for English financial terms.
-
-BhashaBench_Hindi.csv: Benchmark dataset for Hindi financial terms.
-
-requirements.txt: List of Python dependencies needed to run the project.
-
-🛠️ Installation
-Clone the repository:
-
-Bash
-git clone https://github.com/Kanaiya-rgb/indic-finance-search.git
-Install dependencies:
-
-Bash
-pip install -r requirements.txt
-📈 Future Roadmap
-Expanding support to more Indic languages (Gujarati, Marathi, etc.).
-
-Integrating advanced NLP models for better semantic search.
-
-Adding a web-based UI for easier user interaction.
+## 🛠️ Setup and Installation
+1. **Clone the repository**:
+   ```bash
+   git clone [https://github.com/Kanaiya-rgb/indic-finance-search.git](https://github.com/Kanaiya-rgb/indic-finance-search.git)
