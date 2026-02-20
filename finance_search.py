@@ -41,13 +41,13 @@ with st.sidebar:
     st.caption("Developed for AI Indian Summit 2026")
 
 # 4. Data Loading
-file_map = {"English": "BhashaBench_English.csv", "Hindi": "BhashaBench_Hindi.csv"}
-filename = file_map[language]
-
 @st.cache_data
 def load_data(file):
+    # Try direct path first, then relative path
     if os.path.exists(file):
         return pd.read_csv(file)
+    elif os.path.exists(os.path.join(os.getcwd(), file)):
+        return pd.read_csv(os.path.join(os.getcwd(), file))
     return None
 
 df = load_data(filename)
